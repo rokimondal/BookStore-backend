@@ -22,9 +22,6 @@ app.use(cors({
     origin : ['http://localhost:5173', 'https://book-store-frontend-gules.vercel.app'],
     credentials : true,
 }))
-app.use('/',(req,res)=>{
-    res.send("Book server is running successfully.")
-})
 //routes
 app.use('/api/books', bookRouter)
 app.use('/api/orders', orderRouter)
@@ -36,6 +33,9 @@ app.use('/api/admin', adminRouter)
 //database
 async function main(){
     await mongoose.connect(process.env.DB_URL);
+    app.use("/", (req, res) => {
+    res.send("Book Store Server is running!");
+  });
 }
 main().then(()=>console.log("Mongodb connect successfully")).catch(err=>console.log(err))
 

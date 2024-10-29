@@ -22,7 +22,9 @@ app.use(cors({
     origin : ['http://localhost:5173', 'https://book-store-frontend-gules.vercel.app'],
     credentials : true,
 }))
-
+app.use('/',(req,res)=>{
+    res.send("Book server is running successfully.")
+})
 //routes
 app.use('/api/books', bookRouter)
 app.use('/api/orders', orderRouter)

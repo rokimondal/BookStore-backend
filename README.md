@@ -1,6 +1,6 @@
 # 📚 BookStore-backend
 
-![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=38BCE0&center=true&multiline=true&repeat=false&width=800&height=140&lines=📚+BookStore-backend;A+cutting-edge+project+by+rokimondal;Modern,+Professional,+Premium)
+![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=43B581&center=true&vCenter=true&repeat=false&width=1000&height=40&lines=BookStore-backend;A+cutting-edge+project+by+rokimondal)
 
 ## 🚀 A cutting-edge backend project built with JavaScript
 
